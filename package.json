@@ -1,0 +1,31 @@
+{
+  "name": "travista-mongo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^16.1.2",
+    "bcrypt": "^3.0.6",
+    "bcryptjs": "^2.4.3",
+    "busboy": "^0.3.1",
+    "connect-flash": "^0.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.1.0",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "express-session": "^1.16.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.1",
+    "multer": "^1.4.2",
+    "nodemon": "^1.19.2",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0"
+  }
+}
